@@ -1,0 +1,76 @@
+.body {
+    background-color: black;
+    margin: 0px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #BF00FF;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #ff0000f5;
+  box-shadow: 0 0 5px rgb(168, 32, 209);
+}
+
+.search-button {
+  padding: 12px 20px;
+  margin-left: -93.2px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+#vinlandsagaimage {
+  position: cover;
+  width: 300px;
+  height: 200px;
+  left: 40px;
+  background-image: url(image.jpg);
+  background-size: 300px 300px;
+  margin-top: -91.5px;
+  border-radius: 15px 15px;
+
+}
+
+.shadow-box {
+  width: auto;
+  height: 200px;
+  background-color: white;
+  border-radius: 25px 25px;
+  box-shadow: 5px 5px 15px rgb(128,0,128), 0 0 15px rgb(0,128,128), 0 0 15px rgb(255,255,255);
+  padding-top: 2px;
+  padding-left: 12px;
+  padding-bottom: 20px;
+  margin-left:20px;
+  margin-right:20px;
+}
+.vinland-saga-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff0000;
+  margin: 50px 0px 0px 400px;  /* margin: top right bottom left; */
+
+}
+
+.ancer-tag-vinland-saga {
+  text-decoration: none;
+}
