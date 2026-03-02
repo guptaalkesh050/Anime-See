@@ -3,17 +3,18 @@
     margin: 0px;
 }
 
-.search {
+.header {
+  position: relative;
   display: flex;
    justify-content: center;
   align-items: center;
-  max-width: 500px;
-  margin: 40px auto;
+  top: 10px;
+  width: auto;
 }
 
 .search-input {
-  width: 100%;
-  padding: 12px 20px;
+  display: fixed;
+  padding: 12px 220px 12px 20.4px;
   font-size: 16px;
   border: 2px solid #BF00FF;
   border-radius: 25px;
@@ -34,44 +35,99 @@
   border-radius: 25px;
   cursor: pointer;
   font-size: 16px;
+
 }
 
 .search-button:hover {
   background-color: #0056b3;
 }
 
-#vinlandsagaimage {
-  position: cover;
-  width: 300px;
-  height: 200px;
-  left: 40px;
-  background-image: url(image.jpg);
-  background-size: 300px 300px;
-  margin-top: -91.5px;
-  border-radius: 15px 15px;
-
-}
-
+/*Universal class for all the shadow box*/
 .shadow-box {
-  width: auto;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
   height: 200px;
+  width: 1010px;
   background-color: white;
-  border-radius: 25px 25px;
+  border-radius: 25px;
   box-shadow: 5px 5px 15px rgb(128,0,128), 0 0 15px rgb(0,128,128), 0 0 15px rgb(255,255,255);
-  padding-top: 2px;
-  padding-left: 12px;
-  padding-bottom: 20px;
-  margin-left:20px;
-  margin-right:20px;
+  margin: 40px 20px;
+  
 }
-.vinland-saga-title {
+
+.vinlandsaga-title {
+ width: 900px;
+ top: 0%;
+ right: 0%;
   font-size: 30px;
   font-weight: bold;
-  color: #ff0000;
-  margin: 50px 0px 0px 400px;  /* margin: top right bottom left; */
+  color: #ff0000; /* margin: top right bottom left; */
+  
+}
+.vinlandsagaimage {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-image: url(image.jpg);
+  background-size: 300px 300px;
+  border-radius: 15px 15px;
+  background-repeat: no-repeat;
 
 }
 
-.ancer-tag-vinland-saga {
-  text-decoration: none;
+
+
+
+/*WHRER WE START MHA */
+
+
+
+.MHA-title {
+ width: 900px;
+ top: 0%;
+ right: 0%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff0000; /* margin: top right bottom left; */
+  
+}
+.MHA-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-image: url(MHA.jpg);
+  background-size: 300px 300px;
+  border-radius: 15px 15px;
+  background-repeat: no-repeat;
+
+}
+
+/*where we start dragon-ball-(1986)*/
+
+.dragon-ball-1986-title {
+ width: 900px;
+ top: 0%;
+ right: 0%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff0000; /* margin: top right bottom left; */
+  
+}
+.dragon-ball-1986-image {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-image: url(dragon-ball-1986.jpg);
+  background-size: 300px 300px;
+  border-radius: 15px 15px;
+  background-repeat: no-repeat;
+
 }
